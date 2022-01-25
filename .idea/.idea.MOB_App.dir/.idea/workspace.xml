@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69b9dd0d-37c6-4fc6-a133-2c55d5148571" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DTOs/AddProjectDropDownData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Meta.IntoApp.Localizations/Messages/Messages.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/83389B32-774C-4052-9052-7EE9EF7C2FD2/3A/OpenApiOperation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/BaseService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/869E6C21-96FE-460F-9B92-1C6D00DF784B/9d/cac9c8c2/CustomAttributeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2A4D67A0-8B9A-4D8C-8E39-4EDD51F04B14/18/IOperationFilter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Meta.IntoApp.Localizations/Tokens/Tokens.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/APIModels/ResetPasswordAPIModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Attributes/IgnoreHeaderMearchantInfoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/ClaimsExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/CustomMiddlewareExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/RouteMiddleWare.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/SwaggerHttpHeaderFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/UrlExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/ExceptionsHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/PRJAddressTypeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/BaseAdminController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/INameUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ValueToAcceptUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/PRJContactController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/InfoProjectManagrController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NameUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FixedValues/AppRuntimeConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/BranchController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/APIErrorResults/AccountNotConfirmedResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/PRJProjectRoleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/PRJProjectFollowerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestMiddleWareToWorkAsPolicy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/AppointmentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/PRJPojectManagementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/JWT/TokenDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BackgroundServiceEmailProjectManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/PRJTaskController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/JWT/UserDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/JWT/TokenClaimsInfoDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/ProjectController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/RoleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Admin/Controllers/AboutUsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ValueToAcceptUserHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/AboutUsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/AppointmentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/ProjectController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/ListProjectController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/NewsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/PRJ-Tasks/GetTaskDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/Pagination/PRJProjectFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/RoleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/Pagination/PaginationFilterDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/BranchController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/BaseClientController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Client/Controllers/UserInfoNameOnlyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/Appointments/AppointmentDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/Appointments/AddAppointmentDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/PRJ-Contacts/PRJGetContactsDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/PRJ-Contacts/PRJAddContactsDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/PRJ-Projects/GetProjectDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/AboutUs/Admin/AdminAboutUsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/AboutUs/Admin/IAdminAboutUsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/PRJ-ProjectFollower/GetProjectFollowerDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-Role/admin/IAdminProjectRole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-Role/admin/AdminProjectRoleService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-Task/admin/AdminTaskService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-Task/admin/IAdminTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Projects/Admin/IAdminProjectService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Projects/Admin/AdminProjectService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Projects/Client/IClientProjectService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Projects/Client/ClientProjectService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/UserInfoNameImageOnlyDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-Project/admin/AdminProjectService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-Project/admin/IAdminProject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Appointments/admin/AdminAppointmentService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/UserRegisterInformationDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Appointments/client/ClientAppointmentService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-Contacts/admin/PRJIAdminContact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-Contacts/admin/PRJAdminContactService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Enums/AppointmentStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Enums/CategoryType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Enums/RequestStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-JobPosition/admin/IAdminJobPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Helpers/EnumExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-JobPosition/admin/AdminJobPositionService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Helpers/MerchantDetecterHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-TaskFollower/admin/AdminTaskFollowersService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Helpers/DateTimeHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/EmailService/EmailService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-TaskFollower/admin/IAdminTaskFollowers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Helpers/JWTGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/EmailService/IEmailService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobMerchant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Notification/INotificationService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJContacts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-ProjectCategory/admin/IAdminProjectCategory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-ProjectCategory/admin/AdminProjectCategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobSubService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-ProjectFollower/Admin/AdminProjectFollowerService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/ProjectDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/PRJ-ProjectFollower/Admin/IAdminProjectFollower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobWorkPlan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJTaskFollower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobOurTeam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/UserInfoDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/BaseAPIResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobAppointmentDetails.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJJobPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJAddressType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobContact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJProject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobProject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobAppointment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/Account.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJProjectCategory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJProjectRole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobAbout.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJProjectStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJProjectFollowers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MetaITechDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/PRJTaskStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbModels/MobBranch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/LoginInformationDTO.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/APIModels/ResetPasswordAPIModel.cs" />
+        <option value="$PROJECT_DIR$/DbModels/MobMerchant.cs" />
+        <option value="$PROJECT_DIR$/Services/BaseService.cs" />
+        <option value="$PROJECT_DIR$/DbModels/Account.cs" />
+        <option value="$PROJECT_DIR$/Helpers/MerchantDetecterHelper.cs" />
+        <option value="$PROJECT_DIR$/DbModels/PRJProjectRole.cs" />
+        <option value="$PROJECT_DIR$/DTOs/Test.cs" />
+        <option value="$PROJECT_DIR$/DTOs/UserInfoNameImageOnlyDTO.cs" />
+        <option value="$PROJECT_DIR$/Areas/Client/Controllers/UserInfoNameImageOnly.cs" />
+        <option value="$PROJECT_DIR$/Areas/Client/Controllers/UserInfoNameOnlyController.cs" />
+        <option value="$PROJECT_DIR$/DTOs/PRJ-Contacts/PRJGetContactsDTO.cs" />
+        <option value="$PROJECT_DIR$/DbModels/PRJContacts.cs" />
+        <option value="$PROJECT_DIR$/Services/PRJ-Contacts/admin/PRJIAdminContact.cs" />
+        <option value="$PROJECT_DIR$/Areas/Admin/Controllers/PRJPojectManagementController.cs" />
+        <option value="$PROJECT_DIR$/DTOs/PRJ-ProjectFollower/GetProjectFollowerDTO.cs" />
+        <option value="$PROJECT_DIR$/Services/PRJ-ProjectFollower/Admin/IAdminProjectFollower.cs" />
+        <option value="$PROJECT_DIR$/Services/PRJ-ProjectFollower/Admin/AdminProjectFollowerService.cs" />
+        <option value="$PROJECT_DIR$/Areas/Client/Controllers/ListProjectController.cs" />
+        <option value="$PROJECT_DIR$/Helpers/JWTGenerator.cs" />
+        <option value="$PROJECT_DIR$/DTOs/LoginInformationDTO.cs" />
+        <option value="$PROJECT_DIR$/Areas/Client/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/Areas/Client/Controllers/BranchController.cs" />
+        <option value="$PROJECT_DIR$/Areas/Admin/Controllers/PRJAddressTypeController.cs" />
+        <option value="$PROJECT_DIR$/ValueToAcceptUser.cs" />
+        <option value="$PROJECT_DIR$/INameUser.cs" />
+        <option value="$PROJECT_DIR$/NameUser.cs" />
+        <option value="$PROJECT_DIR$/Areas/Admin/Controllers/AboutUsController.cs" />
+        <option value="$PROJECT_DIR$/Areas/Admin/Controllers/InfoProjectManagrController.cs" />
+        <option value="$PROJECT_DIR$/Services/PRJ-Task/admin/IAdminTask.cs" />
+        <option value="$PROJECT_DIR$/DTOs/PRJ-Tasks/GetTaskDTO.cs" />
+        <option value="$PROJECT_DIR$/Services/PRJ-Task/admin/AdminTaskService.cs" />
+        <option value="$PROJECT_DIR$/DTOs/PRJ-Projects/GetProjectDTO.cs" />
+        <option value="$PROJECT_DIR$/DbModels/PRJProject.cs" />
+        <option value="$PROJECT_DIR$/DTOs/AddProjectDropDownData.cs" />
+        <option value="$PROJECT_DIR$/ValueToAcceptUserHandler.cs" />
+        <option value="$PROJECT_DIR$/Extensions/MiddleWareExtention.cs" />
+        <option value="$PROJECT_DIR$/TestMiddleWareToWorkAsPolicy.cs" />
+        <option value="$PROJECT_DIR$/Extensions/RouteMiddleWare.cs" />
+        <option value="$PROJECT_DIR$/Extensions/CustomMiddlewareExtensions.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Attributes/IgnoreHeaderMearchantInfoAttribute.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/BackgroundServiceEmailProjectManager.cs" />
+        <option value="$PROJECT_DIR$/APIErrorResults/AccountNotConfirmedResponse.cs" />
+        <option value="$PROJECT_DIR$/DTOs/Appointments/AppointmentDTO.cs" />
+        <option value="$PROJECT_DIR$/Services/PRJ-Contacts/admin/PRJAdminContactService.cs" />
+        <option value="$PROJECT_DIR$/Helpers/EnumExtension.cs" />
+        <option value="$PROJECT_DIR$/Services/PRJ-Project/admin/AdminProjectService.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xlXl3DWCYLIjuvySAnS4akUnRw" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.MOB_App">
+    <configuration name="MOB_App" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MOB_App.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="MOB_App" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MOB_App: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MOB_App.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69b9dd0d-37c6-4fc6-a133-2c55d5148571" name="Default Changelist" comment="" />
+      <created>1630930797605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630930797605</updated>
+      <workItem from="1630930801120" duration="3230000" />
+      <workItem from="1630947313356" duration="13262000" />
+      <workItem from="1630992739266" duration="17167000" />
+      <workItem from="1631037348052" duration="8795000" />
+      <workItem from="1631080625197" duration="1459000" />
+      <workItem from="1631085892820" duration="6186000" />
+      <workItem from="1631126184724" duration="5109000" />
+      <workItem from="1631165733796" duration="17335000" />
+      <workItem from="1631340149248" duration="2843000" />
+      <workItem from="1631344893437" duration="4925000" />
+      <workItem from="1631368326348" duration="929000" />
+      <workItem from="1631370121420" duration="4486000" />
+      <workItem from="1631388164376" duration="4291000" />
+      <workItem from="1631425944954" duration="799000" />
+      <workItem from="1631428725071" duration="448000" />
+      <workItem from="1631429397200" duration="2705000" />
+      <workItem from="1631432572843" duration="3108000" />
+      <workItem from="1631440794316" duration="10887000" />
+      <workItem from="1631512126112" duration="26691000" />
+      <workItem from="1631563656113" duration="1397000" />
+      <workItem from="1631598377927" duration="1356000" />
+      <workItem from="1631601859998" duration="22612000" />
+      <workItem from="1631786389045" duration="8220000" />
+      <workItem from="1631890259276" duration="499000" />
+      <workItem from="1631891022143" duration="3279000" />
+      <workItem from="1631907949163" duration="1310000" />
+      <workItem from="1631947050875" duration="7175000" />
+      <workItem from="1631955982717" duration="1596000" />
+      <workItem from="1631958220936" duration="13223000" />
+      <workItem from="1631984051124" duration="2593000" />
+      <workItem from="1632030779831" duration="21782000" />
+      <workItem from="1632136164495" duration="6431000" />
+      <workItem from="1632206708107" duration="15606000" />
+      <workItem from="1632744997805" duration="81000" />
+      <workItem from="1632915206328" duration="1178000" />
+      <workItem from="1632918299482" duration="861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

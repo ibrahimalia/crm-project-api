@@ -1,0 +1,1180 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Meta.IntroApp</name>
+    </assembly>
+    <members>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AboutUsController.GetAboutUs">
+            <summary>
+            Get about_us information
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AboutUsController.AddAboutUs(Meta.IntroApp.DTOs.AddAboutUSDTO)">
+            <summary>
+            Add or Update aboutUs information
+            </summary>
+            <param name="aboutUs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AboutUsController.AddOurTeam(System.Collections.Generic.List{Meta.IntroApp.DTOs.employee.AddEmployeeDTO})">
+            <summary>
+            Post or Put List of employee information
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AboutUsController.AssignService(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+             <summary>
+            
+             </summary>
+             <param name="employeeId"></param>
+             <param name="service"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AboutUsController.DeleteOurTeam(System.Nullable{System.Int32})">
+            <summary>
+            Delete employee
+            </summary>
+            <param name="employeeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AppointmentController.AddAppointment(System.Int64,Meta.IntroApp.DTOs.DTO_Appointments.AddAppointmentDTO)">
+             <summary>
+            
+             </summary>
+             <param name="clientId"></param>
+             <param name="appointment"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AppointmentController.delete(System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="Id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AppointmentController.GetAppointment(System.Int64,Meta.IntroApp.DTOs.Pagination.PaginationFilterDTO)">
+            <summary>
+            
+            </summary>
+            <param name="clientId"></param>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AppointmentController.Details(System.Nullable{System.Int32})">
+             <summary>
+            
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.AppointmentController.Update(System.Int32,Meta.IntroApp.DTOs.DTO_Appointments.AddAppointmentDTO)">
+             <summary>
+            
+             </summary>
+             <param name="id"></param>
+             <param name="model"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.NewsController.GetListNews(Meta.IntroApp.DTOs.Pagination.PaginationFilterDTO)">
+             <summary>
+            
+             </summary>
+             <param name="filter"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.NewsController.GetNews(System.Nullable{System.Int32})">
+             <summary>
+            
+             </summary>
+             <param name="newsId"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.NewsController.AddNews(Meta.IntroApp.DTOs.News.AddEditNewsDTO)">
+             <summary>
+            
+             </summary>
+             <param name="news"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.NewsController.Update(System.Nullable{System.Int32},Meta.IntroApp.DTOs.News.AddEditNewsDTO)">
+             <summary>
+            
+             </summary>
+             <param name="newsId"></param>
+             <param name="news"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.NewsController.Delete(System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="newsId"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ProjectController.ListProjects(Meta.IntroApp.DTOs.Pagination.PaginationFilterDTO)">
+            <summary>
+            Get all projects for specific merchant
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ProjectController.GetProjectDetails(System.Nullable{System.Int32})">
+             <summary>
+            
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ProjectController.AddProjects(Meta.IntroApp.DTOs.AddEditProjectDTO)">
+             <summary>
+            
+             </summary>
+             <param name="project"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ProjectController.UpdateProject(System.Int32,Meta.IntroApp.DTOs.AddEditProjectDTO)">
+             <summary>
+            
+             </summary>
+             <param name="id"></param>
+             <param name="model"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ProjectController.DeleteProject(System.Nullable{System.Int32})">
+             <summary>
+            
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.RoleController.Roles(Meta.IntroApp.DTOs.RoleDTO,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="createRoleViewModel"></param>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.RoleController.Roles(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="Id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.RoleController.Roles">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ServiceController.AddService(Meta.IntroApp.DTOs.AddServiceDTO)">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ServiceController.Update(System.Int32,Meta.IntroApp.DTOs.EditServiceDTO)">
+            <summary>
+            
+            </summary>
+            <param name="serviceID"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ServiceController.Delete(System.Nullable{System.Int32})">
+             <summary>
+            
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.SubServicesController.GetSubService(System.Nullable{System.Int32})">
+            <summary>
+            return specific Sub_Service information 
+            </summary>
+            <param name="SubServiceId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.SubServicesController.GetSubServices(System.Int32)">
+            <summary>
+            return all sub_services for specific service
+            </summary>
+            <param name="serviceId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.SubServicesController.AddSubService(System.Int32,Meta.IntroApp.DTOs.SubService.SubServiceDTO)">
+             <summary>
+            
+             </summary>
+             <param name="serviceId"></param>
+             <param name="Subservice"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.SubServicesController.PutSubServices(Meta.IntroApp.DTOs.SubService.UpdateSubServiceDTO)">
+             <summary>
+            
+             </summary>
+             <param name="service"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.SubServicesController.Delete(System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="subServiceId"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ThemeController.Themes">
+             <summary>
+            Get theme detailes
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ThemeController.AddTheme(Meta.IntroApp.DTOs.Theme.ThemeDTO)">
+            <summary>
+            Post or Put Theme data
+            </summary>
+            <param name="Theme"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ThemeController.DeleteTheme(System.Nullable{System.Int32})">
+             <summary>
+            Delete theme
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ThemeController.SetHomeImages(System.Collections.Generic.List{Meta.IntroApp.DTOs.GalleryImageDTO})">
+             <summary>
+            Post Or Put gallery images
+             </summary>
+             <param name="images"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.ThemeController.SetSliderImages(System.Collections.Generic.List{Meta.IntroApp.DTOs.GalleryImageDTO})">
+             <summary>
+            Post Or Put sliders
+             </summary>
+             <param name="images"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.WorkPlanController.Get(System.Nullable{System.Int32})">
+            <summary>
+            get plan detailes
+            </summary>
+            <param name="planId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.WorkPlanController.WorkPlan(System.Nullable{System.Int32})">
+            <summary>
+            Get list of plans
+            </summary>
+            <param name="planId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.WorkPlanController.AddWorkPlan(Meta.IntroApp.DTOs.WorkPlan.AddWorkPlanDTO)">
+             <summary>
+            
+             </summary>
+             <param name="plan"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.WorkPlanController.UpdatePlan(System.Nullable{System.Int32},Meta.IntroApp.DTOs.WorkPlan.AddWorkPlanDTO)">
+             <summary>
+            
+             </summary>
+             <param name="planId"></param>
+             <param name="newworkPlan"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.Admin.WorkPlanController.deletePlan(System.Nullable{System.Int32})">
+             <summary>
+            
+             </summary>
+             <param name="planId"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.AccountController.AddAdmin(Meta.IntroApp.DTOs.UserRegisterInformationDTO)">
+            <summary>
+            Create a new Adminmistrator
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.AccountController.Login(Meta.IntroApp.DTOs.LoginInformationDTO)">
+            <summary>
+            When account not confirmed the error response will contains code 1 with and the data will be an object containing the user ID
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.AccountController.GetUsers">
+            <summary>
+            Get All Usres
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.BranchController.Branches(Meta.IntroApp.DTOs.Pagination.PaginationFilterDTO)">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.BranchController.Branche(System.Nullable{System.Int32})">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.BranchController.Branches(Meta.IntroApp.DTOs.branch.AddBranchDTO)">
+             <summary>
+            
+             </summary>
+             <param name="mobBranch"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.BranchController.Update(Meta.IntroApp.DTOs.branch.AddBranchDTO)">
+             <summary>
+            
+             </summary>
+             <param name="branch"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.BranchController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Delete
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.ContactUsController.ContactUs">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.ContactUsController.ContactUs(Meta.IntroApp.DTOs.Contact.ContactUSList)">
+             <summary>
+            
+             </summary>
+             <param name="model"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.InfoProjectManagrController.ListContactsProjectManager">
+            <summary>
+            Get Project Manager 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJAddressTypeController.ListAddressType">
+            <summary>
+            Get list of Admin Address Type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJAddressTypeController.AddressType(Meta.IntroApp.DTOs.PRJ_AddressType.AddAddressTypeDTO)">
+            <summary>
+            Add New Address Type
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJAddressTypeController.UpdateAddressType(System.Int32,Meta.IntroApp.DTOs.PRJ_AddressType.AddAddressTypeDTO)">
+            <summary>
+            update Address Type value
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJAddressTypeController.DeleteAddressType(System.Int32)">
+            <summary>
+            delete specific Address Type
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJContactController.ListContacts">
+            <summary>
+            Get list of contacts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJContactController.DropDownData">
+            <summary>
+            Get many lists of values to add new contacts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJContactController.Contactdetailes(System.Int32)">
+            <summary>
+            Get detailes of contact
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJContactController.Contacts(Meta.IntroApp.DTOs.PRJ_Contacts.PRJAddContactsDTO)">
+            <summary>
+            Add New Contact
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJContactController.UpdateContact(System.Int32,Meta.IntroApp.DTOs.PRJ_Contacts.PRJAddContactsDTO)">
+            <summary>
+            Update contact data
+            </summary>
+            <param name="id"></param>
+            <param name="project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJContactController.DeleteContact(System.Int32)">
+            <summary>
+            delete specific contact
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJInvolvementLevelController.ListLevels">
+            <summary>
+            Get list of Levels
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJInvolvementLevelController.Levels(Meta.IntroApp.DTOs.PRJ_InvolvementLevel.AddInvolvementLevelDTO)">
+            <summary>
+            Add New Level
+            </summary>
+            <param name="levelDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJInvolvementLevelController.UpdateLevel(System.Int32,Meta.IntroApp.DTOs.PRJ_InvolvementLevel.AddInvolvementLevelDTO)">
+            <summary>
+            update Level value
+            </summary>
+            <param name="id"></param>
+            <param name="levelDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJInvolvementLevelController.DeleteLevel(System.Int32)">
+            <summary>
+            delete specific level
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJJobPositionController.ListPositions">
+            <summary>
+            Get list of jop positions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJJobPositionController.Positions(Meta.IntroApp.DTOs.PRJ_jobPosition.AddJobPositionDTO)">
+            <summary>
+            Add New Job position
+            </summary>
+            <param name="jobPosition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJJobPositionController.UpdateJobPosition(System.Int32,Meta.IntroApp.DTOs.PRJ_jobPosition.AddJobPositionDTO)">
+            <summary>
+            update job position value
+            </summary>
+            <param name="id"></param>
+            <param name="jobPosition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJJobPositionController.DeleteJobPosition(System.Int32)">
+            <summary>
+            delete specific position
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJPojectManagementController.ListProjects(Meta.IntroApp.DTOs.Pagination.PRJProjectFilter)">
+            <summary>
+            Get list of Projects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJPojectManagementController.TreeOfProjects(Meta.IntroApp.DTOs.Pagination.PRJProjectFilter)">
+            <summary>
+            Get list of Projects as tree view
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJPojectManagementController.Dropdownsdata">
+            <summary>
+            Get list of required Dropdowns data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJPojectManagementController.Projectdetailes(System.Int32)">
+            <summary>
+            Get detailes of Project
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJPojectManagementController.Project(Meta.IntroApp.DTOs.PRJ_Projects.AddProjectDTO)">
+            <summary>
+            Add New Project
+            </summary>
+            <param name="project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJPojectManagementController.UpdateProject(System.Int32,Meta.IntroApp.DTOs.PRJ_Projects.AddProjectDTO)">
+            <summary>
+            Update project data
+            </summary>
+            <param name="id"></param>
+            <param name="project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJPojectManagementController.DeleteProject(System.Int32)">
+            <summary>
+            delete specific project
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectCategoryController.ListProjectCategories">
+            <summary>
+            Get list of categories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectCategoryController.ProjectCategory(Meta.IntroApp.DTOs.PRJ_ProjectCategoriesDTO.ADDProjectCategoriesDTO)">
+            <summary>
+            Add New project categpry
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectCategoryController.UpdateProjectCategory(System.Int32,Meta.IntroApp.DTOs.PRJ_ProjectCategoriesDTO.ADDProjectCategoriesDTO)">
+            <summary>
+            update category value
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectCategoryController.DeleteProjectCategory(System.Int32)">
+            <summary>
+            delete specific category
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectFollowerController.ListProjectFollower(System.Int32)">
+            <summary>
+            Get list of Project Followers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectFollowerController.Dropdownsdata">
+            <summary>
+            Get list of required Dropdowns data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectFollowerController.ProjectFollowerss(Meta.IntroApp.DTOs.PRJ_ProjectFollower.ADDProjectFollowerDTO)">
+            <summary>
+            Add New Project Follower
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectFollowerController.UpdateProjectFollower(System.Int32,Meta.IntroApp.DTOs.PRJ_ProjectFollower.ADDProjectFollowerDTO)">
+            <summary>
+            Update Project Follower data
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectFollowerController.DeleteProjectFollower(System.Int32)">
+            <summary>
+            delete specific  Project Follower 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectHistoryController.List(System.Int32)">
+            <summary>
+            Get list of project logs
+            </summary>
+            <param name="projectID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectRoleController.ListProjectRoles">
+            <summary>
+            Get list of project roles
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectRoleController.ProjectRole(Meta.IntroApp.DTOs.PRJ_ProjectRole.ADDProjectRoleDTO)">
+            <summary>
+            Add New project role
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectRoleController.UpdateProjectRole(System.Int32,Meta.IntroApp.DTOs.PRJ_ProjectRole.ADDProjectRoleDTO)">
+            <summary>
+            update project role value
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectRoleController.DeleteProjectRole(System.Int32)">
+            <summary>
+            delete specific project role
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectStatusController.ListProjectStatus">
+            <summary>
+            Get list of Project Status
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectStatusController.ProjectStatus(Meta.IntroApp.DTOs.PRJ_ProjectStatusDTO.AddProjectStatusDTO)">
+            <summary>
+            Add New Project Status
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectStatusController.UpdateProjectStatus(System.Int32,Meta.IntroApp.DTOs.PRJ_ProjectStatusDTO.AddProjectStatusDTO)">
+            <summary>
+            update Project Status value
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJProjectStatusController.DeleteProjectStatus(System.Int32)">
+            <summary>
+            delete specific Project Status
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTagController.ListTags">
+            <summary>
+            Get list of tags
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTagController.Tags(Meta.IntroApp.DTOs.PRJ_Tag.AddTagDTO)">
+            <summary>
+            Add New Tag
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTagController.UpdateTag(System.Int32,Meta.IntroApp.DTOs.PRJ_Tag.AddTagDTO)">
+            <summary>
+            Update Tag data
+            </summary>
+            <param name="id"></param>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTagController.DeleteTag(System.Int32)">
+            <summary>
+            delete specific tag
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskController.ListTasks(System.Int32,Meta.IntroApp.DTOs.Pagination.PRJTaskFilter)">
+            <summary>
+            Get list of tasks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskController.TaskDropDownsData">
+            <summary>
+            Get list of required DropDowns Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskController.Taskdetailes(System.Int32)">
+            <summary>
+            Get detailes of task
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskController.Tasks(Meta.IntroApp.DTOs.PRJ_Tasks.AddTaskDTO)">
+            <summary>
+            Add New task
+            </summary>
+            <param name="task"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskController.UpdateTask(System.Int32,Meta.IntroApp.DTOs.PRJ_Tasks.AddTaskDTO)">
+            <summary>
+            Update task data
+            </summary>
+            <param name="id"></param>
+            <param name="task"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskController.DeleteTask(System.Int32)">
+            <summary>
+            delete specific task
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskFollowerController.ListTaskFollowers(System.Int32)">
+            <summary>
+            Get list of task Followers 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskFollowerController.TaskFollowerdetailes(System.Int32)">
+            <summary>
+            Get detailes of task follower detailes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskFollowerController.TaskFollower(Meta.IntroApp.DTOs.PRJ_TaskFollowers.AddTaskFollowersDTO)">
+            <summary>
+            Add New task follower
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskFollowerController.UpdateTaskFollower(System.Int32,Meta.IntroApp.DTOs.PRJ_TaskFollowers.AddTaskFollowersDTO)">
+            <summary>
+            Update task follower data
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskFollowerController.DeleteTaskFollower(System.Int32)">
+            <summary>
+            delete specific task foolower
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskHistoreyController.List(System.Int32)">
+            <summary>
+            Get list of task logs
+            </summary>
+            <param name="projectID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskStatusController.ListTaskStatus">
+            <summary>
+            Get list of task Status
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskStatusController.TaskStatus(Meta.IntroApp.DTOs.PRJ_TaskStatusDTO.AddTaskStatusDTO)">
+            <summary>
+            Add New task Status
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskStatusController.UpdateTaskStatus(System.Int32,Meta.IntroApp.DTOs.PRJ_TaskStatusDTO.AddTaskStatusDTO)">
+            <summary>
+            update task Status value
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTaskStatusController.DeleteTaskStatus(System.Int32)">
+            <summary>
+            delete specific task Status
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTimeSheetController.ListTimeSheetDTO(System.Nullable{System.Int64})">
+             <summary>
+            This API for ((admin)) Get list of timesheets for specific user / if [userId] was null the result will be list of all time sheets
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTimeSheetController.AuthListTimeSheetDTO">
+             <summary>
+            This API for ((user)) to Get list of his TimeSheets //Authenticated
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTimeSheetController.AddTimeSheetDTO(Meta.IntroApp.DTOs.PRJ_TimeSheet.AddTimeSheetDTO)">
+            <summary>
+            Add New time sheet , the user must be loggedIn
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Admin.Controllers.PRJTimeSheetController.UpdateTag(System.Int32,Meta.IntroApp.DTOs.PRJ_TimeSheet.AddTimeSheetDTO)">
+            <summary>
+            Update Time Sheet , the user must be loggedIn
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.AboutUsController.GetAboutUsPage">
+            <summary>
+            Get about_us information
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.AboutUsController.GetOurTeam">
+            <summary>
+            return list of employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.AboutUsController.GetHomeGallery">
+            <summary>
+            return the gallery images in home page
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.AppointmentController.GetAppointment(Meta.IntroApp.DTOs.Pagination.PaginationFilterDTO)">
+             <summary>
+            Appointments Status : Pending = 1 , Cancelled = 2,  Arrived = 3, Done = 4
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.AppointmentController.GetAvailableTimes(System.DateTime,System.Boolean)">
+            <summary>
+            return List of available times 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.AppointmentController.GetAppointmentDetailes(System.Nullable{System.Int32})">
+            <summary>
+            get appointment detailes
+            </summary>
+            <param name="AppointmentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.AppointmentController.AddAppointment(Meta.IntroApp.DTOs.DTO_Appointments.AddAppointmentDTO)">
+            <summary>
+            
+            </summary>       
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.AppointmentController.delete(System.Int32)">
+            <summary>
+            Delete Pending appointment
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.NewsController.News(Meta.IntroApp.DTOs.Pagination.PaginationFilterDTO)">
+            <summary>
+            return list of news
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.NewsController.New(System.Nullable{System.Int32})">
+             <summary>
+            return news detailes
+             </summary>
+             <param name="newsId"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.ProjectController.ListProjects(Meta.IntroApp.DTOs.Pagination.PaginationFilterDTO)">
+            <summary>
+            Get all projects for specific merchant
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.ProjectController.GetProjectDetails(System.Nullable{System.Int32})">
+             <summary>
+            return project detailes
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.SubServicesController.SubService(System.Nullable{System.Int32})">
+            <summary>
+            return Sub_Service information for specific service
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.SubServicesController.SubServices(System.Int32)">
+            <summary>
+            return all sub_services for specific service
+            </summary>
+            <param name="serviceId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.SubServicesController.AllSubServices">
+            <summary>
+            return all sub_services for specific Merchant
+            </summary>
+            <param name="serviceId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.Client.ThemeController.GetThemesHomePage">
+            <summary>
+            Show Home Page
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.Register(Meta.IntroApp.DTOs.RegisterClientDTO)">
+             <summary>
+             Register on the application
+             </summary>
+             <param name="model"></param>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.Login(Meta.IntroApp.DTOs.LoginInformationDTO)">
+            <summary>
+            This is for Clients only
+            When account not confirmed the error response will contains code 1 with and the data will be an object containing the user ID
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.ChangePassword(Meta.IntroApp.Areas.Client.DTOs.ChangePasswordDTO)">
+            <summary>
+            Change the user password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.ConfirmEmail(System.Nullable{System.Int64},System.String)">
+            <summary>
+            Confirm the user Account
+            </summary>
+            <param name="userId"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.ResendCode(System.Nullable{System.Int64})">
+            <summary>
+            Resend the confirmation code
+            The user id is required when u have it otherwise you should be authorized to access the endpoint
+            For example in case reset password we need it because you are not authorized
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.CheckCode(System.String,System.String)">
+            <summary>
+            Check if the account code is correct or not
+            </summary>
+            <param name="email"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.ForgetPassword(System.String)">
+            <summary>
+            Reset the password,after reset complete user will receive a code on his email to be entered on confirmForgetPassword endpoint
+            </summary>
+            <param name="email">The user email</param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.ConfirmForgetPassword(Meta.IntroApp.APIModels.ResetPasswordAPIModel)">
+            <summary>
+            Confirm  account forget password code
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.GetAccount">
+            <summary>
+            Get Account information
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.AccountController.EditAccount(Meta.IntroApp.DTOs.EditClientDTO)">
+            <summary>
+            Edit Account information
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.BranchController.GetListOfBranches(Meta.IntroApp.DTOs.Pagination.PaginationFilterDTO)">
+             <summary>
+            return list of branches
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.BranchController.GetBrancheDetailes(System.Nullable{System.Int32})">
+            <summary>
+            return detailes information about the branch
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.FeedBackController.sendFeedBack(Meta.IntroApp.DTOs.FeedBackDTO)">
+            <summary>
+            send feed back, user must be logged in
+            </summary>
+            <param name="feedBack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.FeedBackController.anonymousFeedBack(Meta.IntroApp.DTOs.FeedBackDTO)">
+            <summary>
+            send feed back,[for anonymous users] 
+            </summary>
+            <param name="feedBack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.ListProjectController.GetProjectTree">
+            <summary>
+            tree of projects
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.RequestController.sendRequest(Meta.IntroApp.DTOs.AddRequestDTO)">
+            <summary>
+            send request [Authorize]
+            </summary>     
+            <param name="addRequestDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.RequestController.sendRequest2(Meta.IntroApp.DTOs.AddRequestDTO)">
+            <summary>
+            send request [Un-Authorize]
+            </summary>     
+            <param name="addRequestDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.RequestController.ListProjects(Meta.IntroApp.DTOs.Pagination.PaginationFilterDTO)">
+            <summary>
+            Get all requests for specific merchant and  specific client
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.RequestController.GetRequestDetails(System.Nullable{System.Int32})">
+            <summary>
+            Get request detailes for specific merchant and  specific client
+            </summary>
+            <param name="RequestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Areas.Client.Controllers.RequestController.PutRequest(System.Int32,Meta.IntroApp.DTOs.AddRequestDTO)">
+            <summary>
+            Update request
+            </summary>     
+            <param name="requestID"></param>
+            <param name="addRequestDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Controllers.BaseController.GetService``1">
+            <summary>
+            Get Service
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Controllers.BaseController.ErrorResponseFromModelState">
+            <summary>
+            return error response from model state
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Controllers.FilesController.UploadImage(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Action to upload image file
+            </summary>
+        </member>
+        <member name="M:Meta.IntroApp.Controllers.FilesController.UploadImages(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            Action to upload image file
+            </summary>
+        </member>
+        <member name="M:Meta.IntroApp.Controllers.FilesController.UploadFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Action to upload file
+            </summary>
+        </member>
+        <member name="M:Meta.IntroApp.Controllers.FilesController.UploadFiles(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            Action to upload list of files
+            </summary>
+        </member>
+        <member name="P:Meta.IntroApp.DTOs.DTO_Appointments.AddAppointmentDTO.AppointmentDate">
+            <summary>
+            Please just to sent the year ,month , day section
+            </summary>
+        </member>
+        <member name="P:Meta.IntroApp.DTOs.DTO_Appointments.AddAppointmentDTO.PhoneNumber">
+            <summary>
+            Syntax: hh:mm
+            </summary>
+        </member>
+        <member name="P:Meta.IntroApp.DTOs.DTO_Appointments.AppointmentDTO.StatusText">
+            <summary>
+            To be displyed only : Appointments Status : Pending = 1 , Cancelled = 2,  Arrived = 3, Done = 4
+            </summary>
+        </member>
+        <member name="M:Meta.IntroApp.DTOs.JWT.AuthenticationModule.GenerateUserClaimFromJWT(System.String)">
+            Using the same key used for signing token, user payload is generated back
+            Using the same key used for signing token, user payload is generated back
+        </member>
+        <member name="P:Meta.IntroApp.DTOs.WorkPlan.AddWorkPlanDTO.FromDay">
+            <summary>
+            Syntax : yyyy-mm-dd
+            </summary>
+        </member>
+        <member name="P:Meta.IntroApp.DTOs.WorkPlan.AddWorkPlanDTO.ToDay">
+            <summary>
+            Syntax : yyyy-mm-dd
+            </summary>
+        </member>
+        <member name="P:Meta.IntroApp.DTOs.WorkPlan.AddWorkPlanDTO.FirstWorkTimeStart">
+            <summary>
+            Syntax : hh:mm
+            </summary>
+        </member>
+        <member name="P:Meta.IntroApp.DTOs.WorkPlan.AddWorkPlanDTO.FirstWorkTimeEnd">
+            <summary>
+            Syntax : hh:mm
+            </summary>
+        </member>
+        <member name="M:Meta.IntroApp.Extensions.UrlExtension.WrapContentUrl(System.String)">
+            <summary>
+            Wrap the url to form a full url
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Meta.IntroApp.FixedValues.AppRuntimeConstants.ImagesSiteUrl">
+            <summary>
+            The content site url where images stored
+            </summary>
+        </member>
+        <member name="M:Meta.IntroApp.Program.InitializeDb(Microsoft.AspNetCore.Hosting.IWebHost)">
+            <summary>
+            initializ the database
+            </summary>
+            <param name="host"></param>
+        </member>
+        <member name="M:Meta.IntroApp.Program.InitConstantValues(Microsoft.AspNetCore.Hosting.IWebHost)">
+            <summary>
+            Initialize contant values in the application
+            </summary>
+            <param name="host"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meta.IntroApp.Services.UploadFiles.UploadFileServices.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Upload file async
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

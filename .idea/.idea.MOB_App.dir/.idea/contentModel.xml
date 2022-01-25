@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Alia\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alia\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alia\RiderProjects\MetaAppBackend-metaappbackend-d1c0d55f013c\MOB_App\MOB_App" t="IncludeRecursive">
+      <e p="APIErrorResults" t="Include">
+        <e p="AccountNotConfirmedResponse.cs" t="Include" />
+      </e>
+      <e p="APIModels" t="Include">
+        <e p="ResetPasswordAPIModel.cs" t="Include" />
+      </e>
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="appsettings.production.json" t="Include" />
+      <e p="Areas" t="Include">
+        <e p="Admin" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="AboutUsController.cs" t="Include" />
+            <e p="AccountController.cs" t="Include" />
+            <e p="AppointmentController.cs" t="Include" />
+            <e p="BaseAdminController.cs" t="Include" />
+            <e p="BranchController.cs" t="Include" />
+            <e p="ContactUsController.cs" t="Include" />
+            <e p="HomeOrderController.cs" t="Include" />
+            <e p="ImageController.cs" t="Include" />
+            <e p="InfoProjectManagrController.cs" t="Include" />
+            <e p="NewsController.cs" t="Include" />
+            <e p="NotificationController.cs" t="Include" />
+            <e p="PRJAddressTypeController.cs" t="Include" />
+            <e p="PRJContactController.cs" t="Include" />
+            <e p="PRJInvolvementLevelController.cs" t="Include" />
+            <e p="PRJJobPositionController.cs" t="Include" />
+            <e p="PRJPojectManagementController.cs" t="Include" />
+            <e p="PRJProjectCategoryController.cs" t="Include" />
+            <e p="PRJProjectFollowerController.cs" t="Include" />
+            <e p="PRJProjectHistoryController.cs" t="Include" />
+            <e p="PRJProjectRoleController.cs" t="Include" />
+            <e p="PRJProjectStatusController.cs" t="Include" />
+            <e p="PRJTagController.cs" t="Include" />
+            <e p="PRJTaskController.cs" t="Include" />
+            <e p="PRJTaskFollowerController.cs" t="Include" />
+            <e p="PRJTaskHistoreyController.cs" t="Include" />
+            <e p="PRJTaskStatusController.cs" t="Include" />
+            <e p="PRJTimeSheetController.cs" t="Include" />
+            <e p="ProjectController.cs" t="Include" />
+            <e p="RoleController.cs" t="Include" />
+            <e p="ServiceController.cs" t="Include" />
+            <e p="SubServiceController.cs" t="Include" />
+            <e p="ThemeController.cs" t="Include" />
+            <e p="WorkPlanController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Client" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="AboutUsController.cs" t="Include" />
+            <e p="AccountController.cs" t="Include" />
+            <e p="AppointmentController.cs" t="Include" />
+            <e p="BaseClientController.cs" t="Include" />
+            <e p="BranchController.cs" t="Include" />
+            <e p="ContactUsController.cs" t="Include" />
+            <e p="FeedBackController.cs" t="Include" />
+            <e p="ListProjectController.cs" t="Include" />
+            <e p="NewsController.cs" t="Include" />
+            <e p="ProjectController.cs" t="Include" />
+            <e p="RequestController.cs" t="Include" />
+            <e p="RoleController.cs" t="Include" />
+            <e p="ServiceController.cs" t="Include" />
+            <e p="SubServiceController.cs" t="Include" />
+            <e p="ThemeController.cs" t="Include" />
+            <e p="UserInfoNameOnlyController.cs" t="Include" />
+          </e>
+          <e p="DTOs" t="Include">
+            <e p="ChangePasswordDTO.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Attributes" t="Include">
+        <e p="IgnoreHeaderMearchantInfoAttribute.cs" t="Include" />
+      </e>
+      <e p="BackgroundServiceEmailProjectManager.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="BaseController.cs" t="Include" />
+        <e p="FilesController.cs" t="Include" />
+      </e>
+      <e p="DbModels" t="Include">
+        <e p="Account.cs" t="Include" />
+        <e p="DbDesigner" t="Include" />
+        <e p="EfmigrationsHistory.cs" t="Include" />
+        <e p="MetaITechDbContext.cs" t="Include" />
+        <e p="MobAbout.cs" t="Include" />
+        <e p="MobAppointment.cs" t="Include" />
+        <e p="MobAppointmentDetails.cs" t="Include" />
+        <e p="MobBranch.cs" t="Include" />
+        <e p="MobContact.cs" t="Include" />
+        <e p="MobFeedBack.cs" t="Include" />
+        <e p="MobGallery.cs" t="Include" />
+        <e p="MobGlobalTheme.cs" t="Include" />
+        <e p="MobImage.cs" t="Include" />
+        <e p="MobMerchant.cs" t="Include" />
+        <e p="MobNews.cs" t="Include" />
+        <e p="MobOurTeam.cs" t="Include" />
+        <e p="MobProject.cs" t="Include" />
+        <e p="MobRequest.cs" t="Include" />
+        <e p="MobService.cs" t="Include" />
+        <e p="MobSlider.cs" t="Include" />
+        <e p="MobStaffServiceAssign.cs" t="Include" />
+        <e p="MobSubService.cs" t="Include" />
+        <e p="MobWorkPlan.cs" t="Include" />
+        <e p="PRJAddressType.cs" t="Include" />
+        <e p="PRJAttachements.cs" t="Include" />
+        <e p="PRJContacts.cs" t="Include" />
+        <e p="PRJInvolvementLevel.cs" t="Include" />
+        <e p="PRJJobPosition.cs" t="Include" />
+        <e p="PRJProject.cs" t="Include" />
+        <e p="PRJProjectCategory.cs" t="Include" />
+        <e p="PRJProjectFollowers.cs" t="Include" />
+        <e p="PRJProjectHistory.cs" t="Include" />
+        <e p="PRJProjectRole.cs" t="Include" />
+        <e p="PRJProjectStatus.cs" t="Include" />
+        <e p="PRJTAG.cs" t="Include" />
+        <e p="PRJTask.cs" t="Include" />
+        <e p="PRJTaskFollower.cs" t="Include" />
+        <e p="PRJTaskHistory.cs" t="Include" />
+        <e p="PRJTaskStatus.cs" t="Include" />
+        <e p="PRJTimeSheet.cs" t="Include" />
+      </e>
+      <e p="DTOs" t="Include">
+        <e p="aboutUs" t="Include">
+          <e p="AddAboutUSDTO.cs" t="Include" />
+          <e p="GetAboutUsDTO.cs" t="Include" />
+        </e>
+        <e p="AddEditProjectDTO.cs" t="Include" />
+        <e p="AddProjectDropDownData.cs" t="Include" />
+        <e p="AddRequestDTO.cs" t="Include" />
+        <e p="AddServiceDTO.cs" t="Include" />
+        <e p="ApiKeyScheme.cs" t="Include" />
+        <e p="APIResult.cs" t="Include" />
+        <e p="Appointments" t="Include">
+          <e p="AddAppointmentDTO.cs" t="Include" />
+          <e p="AppointmentDetailesDTO.cs" t="Include" />
+          <e p="AppointmentDTO.cs" t="Include" />
+        </e>
+        <e p="BaseAPIResult.cs" t="Include" />
+        <e p="branch" t="Include">
+          <e p="AddBranchDTO.cs" t="Include" />
+          <e p="GetBranchDTO.cs" t="Include" />
+        </e>
+        <e p="Contact" t="Include">
+          <e p="AddOrUpdateContactDTO.cs" t="Include" />
+        </e>
+        <e p="DTO_Response.cs" t="Include" />
+        <e p="employee" t="Include">
+          <e p="AddEmployeeDTO.cs" t="Include" />
+          <e p="AddEmployeeDTO1.cs" t="Include" />
+        </e>
+        <e p="FeedBackDTO.cs" t="Include" />
+        <e p="GalleryImageDTO.cs" t="Include" />
+        <e p="GenerateUniqueId.cs" t="Include" />
+        <e p="GetAttachementDTO.cs" t="Include" />
+        <e p="GetRequestDTO.cs" t="Include" />
+        <e p="GetRequestListDTO.cs" t="Include" />
+        <e p="HomePageDTO.cs" t="Include" />
+        <e p="JWT" t="Include">
+          <e p="AuthenticationModule.cs" t="Include" />
+          <e p="JWTAuthenticationIdentity.cs" t="Include" />
+          <e p="TokenClaimsInfoDto.cs" t="Include" />
+          <e p="TokenDto.cs" t="Include" />
+          <e p="UserDto.cs" t="Include" />
+        </e>
+        <e p="LoginInformationDTO.cs" t="Include" />
+        <e p="MerchantDTO.cs" t="Include" />
+        <e p="News" t="Include">
+          <e p="AddEditNewsDTO.cs" t="Include" />
+          <e p="GetNewsDTO.cs" t="Include" />
+        </e>
+        <e p="Notification" t="Include">
+          <e p="SendNotificationDTO.cs" t="Include" />
+          <e p="TopicEnum.cs" t="Include" />
+        </e>
+        <e p="Pagination" t="Include">
+          <e p="PaginationFilterDTO.cs" t="Include" />
+          <e p="PRJProjectFilter.cs" t="Include" />
+        </e>
+        <e p="PRJ-AddressType" t="Include">
+          <e p="AddAddressType.cs" t="Include" />
+          <e p="GetAddressType.cs" t="Include" />
+        </e>
+        <e p="PRJ-Contacts" t="Include">
+          <e p="PRJAddContactsDTO.cs" t="Include" />
+          <e p="PRJGetContactsDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-InvolvementLevel" t="Include">
+          <e p="AddInvolvementLevelDTO.cs" t="Include" />
+          <e p="GetInvolvementLevelDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-jobPosition" t="Include">
+          <e p="AddJobPositionDTO.cs" t="Include" />
+          <e p="GetJobPositions.cs" t="Include" />
+        </e>
+        <e p="PRJ-ProjectCategoriesDTO" t="Include">
+          <e p="ADDProjectCategoriesDTO.cs" t="Include" />
+          <e p="GetProjectCategoriesDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-ProjectFollower" t="Include">
+          <e p="ADDProjectFollowerDTO.cs" t="Include" />
+          <e p="GetProjectFollowerDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-ProjectHistoryDTO" t="Include">
+          <e p="ProjectHistoryDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-ProjectRole" t="Include">
+          <e p="ADDProjectRoleDTO.cs" t="Include" />
+          <e p="GetProjectRolesDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-Projects" t="Include">
+          <e p="AddProjectDTO.cs" t="Include" />
+          <e p="GetProjectDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-ProjectStatusDTO" t="Include">
+          <e p="AddProjectStatusDTO.cs" t="Include" />
+          <e p="GetProjectStatusDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-Tag" t="Include">
+          <e p="AddTagDTO.cs" t="Include" />
+          <e p="GetTagDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-TaskFollowers" t="Include">
+          <e p="AddTaskFollowers.cs" t="Include" />
+          <e p="GetTaskFollowers.cs" t="Include" />
+        </e>
+        <e p="PRJ-TaskHistoryDTO" t="Include">
+          <e p="TaskHistoryDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-Tasks" t="Include">
+          <e p="AddTaskDTO.cs" t="Include" />
+          <e p="GetTaskDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-TaskStatusDTO" t="Include">
+          <e p="AddTaskStatusDTO.cs" t="Include" />
+          <e p="GetTaskStatusDTO.cs" t="Include" />
+        </e>
+        <e p="PRJ-TimeSheet" t="Include">
+          <e p="AddTimeSheetDTO.cs" t="Include" />
+        </e>
+        <e p="ProjectDTO.cs" t="Include" />
+        <e p="RoleDTO.cs" t="Include" />
+        <e p="service" t="Include">
+          <e p="ServiceDTO.cs" t="Include" />
+        </e>
+        <e p="SubService" t="Include">
+          <e p="SubServiceDTO.cs" t="Include" />
+        </e>
+        <e p="Theme" t="Include">
+          <e p="ThemeDTO.cs" t="Include" />
+        </e>
+        <e p="UploadFile" t="Include">
+          <e p="UploadFileDTO.cs" t="Include" />
+        </e>
+        <e p="UserInfoDTO.cs" t="Include" />
+        <e p="UserInfoNameImageOnlyDTO.cs" t="Include" />
+        <e p="UserRegisterInformationDTO.cs" t="Include" />
+        <e p="WorkPlan" t="Include">
+          <e p="AddWorkPlanDTO.cs" t="Include" />
+          <e p="WorkPlanDTO.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Enums" t="Include">
+        <e p="AppointmentStatus.cs" t="Include" />
+        <e p="CategoryType.cs" t="Include" />
+        <e p="RequestStatus.cs" t="Include" />
+      </e>
+      <e p="Extensions" t="Include">
+        <e p="ClaimsExtension.cs" t="Include" />
+        <e p="CustomMiddlewareExtensions.cs" t="Include" />
+        <e p="ExceptionsHandler.cs" t="Include" />
+        <e p="RouteMiddleWare.cs" t="Include" />
+        <e p="SwaggerAreaControllerConvention.cs" t="Include" />
+        <e p="SwaggerHttpHeaderFilter.cs" t="Include" />
+        <e p="UrlExtension.cs" t="Include" />
+      </e>
+      <e p="FixedValues" t="Include">
+        <e p="AppRuntimeConstants.cs" t="Include" />
+      </e>
+      <e p="Helpers" t="Include">
+        <e p="DateTimeHelper.cs" t="Include" />
+        <e p="EnumExtension.cs" t="Include" />
+        <e p="JWTGenerator.cs" t="Include" />
+        <e p="MerchantDetecterHelper.cs" t="Include" />
+      </e>
+      <e p="INameUser.cs" t="Include" />
+      <e p="IntegrationKeys" t="Include">
+        <e p="firebase-service-account.json" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20210523081015_InitialMigration.cs" t="Include" />
+        <e p="20210523081015_InitialMigration.Designer.cs" t="Include" />
+        <e p="20210524210048_AddingIsActiveAndUserTypeToAccountTable.cs" t="Include" />
+        <e p="20210524210048_AddingIsActiveAndUserTypeToAccountTable.Designer.cs" t="Include" />
+        <e p="20210526062120_ServiceImagesToOneImage.cs" t="Include" />
+        <e p="20210526062120_ServiceImagesToOneImage.Designer.cs" t="Include" />
+        <e p="20210526212844_AddingConfirmationCodeToUserTable.cs" t="Include" />
+        <e p="20210526212844_AddingConfirmationCodeToUserTable.Designer.cs" t="Include" />
+        <e p="20210530073032_AddingIsCodeConfirmedToAccount.cs" t="Include" />
+        <e p="20210530073032_AddingIsCodeConfirmedToAccount.Designer.cs" t="Include" />
+        <e p="20210531081247_AddIntervalForMerchant.cs" t="Include" />
+        <e p="20210531081247_AddIntervalForMerchant.Designer.cs" t="Include" />
+        <e p="20210605073520_addVisibilityToTheme.cs" t="Include" />
+        <e p="20210605073520_addVisibilityToTheme.Designer.cs" t="Include" />
+        <e p="20210606080132_AddFeedBackTable.cs" t="Include" />
+        <e p="20210606080132_AddFeedBackTable.Designer.cs" t="Include" />
+        <e p="20210606125825_RebuildRequestTable.cs" t="Include" />
+        <e p="20210606125825_RebuildRequestTable.Designer.cs" t="Include" />
+        <e p="20210606131336_ReAddForeignkeysToServiceAndSubService.cs" t="Include" />
+        <e p="20210606131336_ReAddForeignkeysToServiceAndSubService.Designer.cs" t="Include" />
+        <e p="20210607090247_AddPathPropertyToMobRequest.cs" t="Include" />
+        <e p="20210607090247_AddPathPropertyToMobRequest.Designer.cs" t="Include" />
+        <e p="20210607112038_addSubTitleForProjectsAndSubService.cs" t="Include" />
+        <e p="20210607112038_addSubTitleForProjectsAndSubService.Designer.cs" t="Include" />
+        <e p="20210608132811_addFontSizeAndSplashToTheme.cs" t="Include" />
+        <e p="20210608132811_addFontSizeAndSplashToTheme.Designer.cs" t="Include" />
+        <e p="20210609094818_addPhoneNumberToAppointmentDetailes.cs" t="Include" />
+        <e p="20210609094818_addPhoneNumberToAppointmentDetailes.Designer.cs" t="Include" />
+        <e p="20210611122534_AddProjectManagementModels.cs" t="Include" />
+        <e p="20210611122534_AddProjectManagementModels.Designer.cs" t="Include" />
+        <e p="20210612083603_FixProjectManagementModels.cs" t="Include" />
+        <e p="20210612083603_FixProjectManagementModels.Designer.cs" t="Include" />
+        <e p="20210616070000_AddImageToAccount.cs" t="Include" />
+        <e p="20210616070000_AddImageToAccount.Designer.cs" t="Include" />
+        <e p="20210616080604_AddMerchantIdToProjectManagementTables.cs" t="Include" />
+        <e p="20210616080604_AddMerchantIdToProjectManagementTables.Designer.cs" t="Include" />
+        <e p="20210617115632_AddEmailToRequest.cs" t="Include" />
+        <e p="20210617115632_AddEmailToRequest.Designer.cs" t="Include" />
+        <e p="20210619060713_AddFK-InvolvementLevelToContacts.cs" t="Include" />
+        <e p="20210619060713_AddFK-InvolvementLevelToContacts.Designer.cs" t="Include" />
+        <e p="20210619122621_DealWithCreatedANDUpdatedBY.cs" t="Include" />
+        <e p="20210619122621_DealWithCreatedANDUpdatedBY.Designer.cs" t="Include" />
+        <e p="20210620115607_AddAccountIdToContacts.cs" t="Include" />
+        <e p="20210620115607_AddAccountIdToContacts.Designer.cs" t="Include" />
+        <e p="20210620132138_AddStateANDTitleToRequest.cs" t="Include" />
+        <e p="20210620132138_AddStateANDTitleToRequest.Designer.cs" t="Include" />
+        <e p="20210625094917_addProjectRoleToProjectFollower.cs" t="Include" />
+        <e p="20210625094917_addProjectRoleToProjectFollower.Designer.cs" t="Include" />
+        <e p="20210627132551_AddRelationBetweenTaskOwnerAndTaskFollower.cs" t="Include" />
+        <e p="20210627132551_AddRelationBetweenTaskOwnerAndTaskFollower.Designer.cs" t="Include" />
+        <e p="20210710092644_AddLabelToProjectAndTaskAndEditLogs.cs" t="Include" />
+        <e p="20210710092644_AddLabelToProjectAndTaskAndEditLogs.Designer.cs" t="Include" />
+        <e p="20210711123934_EditCreatedAndUpdatedByToAccounts.cs" t="Include" />
+        <e p="20210711123934_EditCreatedAndUpdatedByToAccounts.Designer.cs" t="Include" />
+        <e p="20210714110434_AddTimeSheetModel.cs" t="Include" />
+        <e p="20210714110434_AddTimeSheetModel.Designer.cs" t="Include" />
+        <e p="20210714111026_repaireTimeSheetModel.cs" t="Include" />
+        <e p="20210714111026_repaireTimeSheetModel.Designer.cs" t="Include" />
+        <e p="20210714133616_SecondRepaireTimeSheetModel.cs" t="Include" />
+        <e p="20210714133616_SecondRepaireTimeSheetModel.Designer.cs" t="Include" />
+        <e p="20210718103710_editOwnerIdToBeFKtoContacts.cs" t="Include" />
+        <e p="20210718103710_editOwnerIdToBeFKtoContacts.Designer.cs" t="Include" />
+        <e p="20210906120539_Mob_Meta.cs" t="Include" />
+        <e p="20210906120539_Mob_Meta.Designer.cs" t="Include" />
+        <e p="MetaITechDbContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="MOB_App.csproj" t="IncludeRecursive" />
+      <e p="NameUser.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="MOB_App.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+        <e p="PublishProfiles" t="Include">
+          <e p="IISProfile.pubxml" t="Include" />
+        </e>
+      </e>
+      <e p="Services" t="Include">
+        <e p="aboutUs" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminAboutUsService.cs" t="Include" />
+            <e p="IAdminAboutUsService.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientAboutUsService.cs" t="Include" />
+            <e p="IClientAboutUsService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Appointments" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminAppointmentService.cs" t="Include" />
+            <e p="IAdminAppointmentService.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientAppointmentService.cs" t="Include" />
+            <e p="IClientAppointmentService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="BaseService.cs" t="Include" />
+        <e p="Branches" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminBranchService.cs" t="Include" />
+            <e p="IAdminBranchesService.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientBranchService.cs" t="Include" />
+            <e p="IClientBranches.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ContactUs" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminContactUsService.cs" t="Include" />
+            <e p="IAdminContactUsService.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientContactUsService.cs" t="Include" />
+            <e p="IClientContactUs.cs" t="Include" />
+          </e>
+        </e>
+        <e p="EmailService" t="Include">
+          <e p="EmailService.cs" t="Include" />
+          <e p="IEmailService.cs" t="Include" />
+        </e>
+        <e p="FeedBack" t="Include">
+          <e p="ClientFeedBackEmail.cs" t="Include" />
+          <e p="IClientFeedBackEmail.cs" t="Include" />
+        </e>
+        <e p="Merchant" t="Include">
+          <e p="AdminMerchantService.cs" t="Include" />
+          <e p="IAdminMerchant.cs" t="Include" />
+        </e>
+        <e p="News" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminNewsService.cs" t="Include" />
+            <e p="IAdminNewsService.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientNewsService.cs" t="Include" />
+            <e p="IClientNewsService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Notification" t="Include">
+          <e p="INotificationService.cs" t="Include" />
+          <e p="NotificationService.cs" t="Include" />
+        </e>
+        <e p="PRJ-AddressType" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminAddressTypeService.cs" t="Include" />
+            <e p="IAdminAddressType.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-Attachement" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminProjectAttachementsService.cs" t="Include" />
+            <e p="IAdminProjectAttachements.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-Contacts" t="Include">
+          <e p="Admin" t="Include">
+            <e p="PRJAdminContactService.cs" t="Include" />
+            <e p="PRJIAdminContact.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-InvolvementLevel" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminInvolvementLevelService.cs" t="Include" />
+            <e p="IAdminInvolvementLevel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-jobPosition" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminJobPositionService.cs" t="Include" />
+            <e p="IAdminJobPosition.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-Project" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminProjectService.cs" t="Include" />
+            <e p="IAdminProject.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-ProjectCategory" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminProjectCategoryService.cs" t="Include" />
+            <e p="IAdminProjectCategory.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-ProjectFollower" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminProjectFollowerService.cs" t="Include" />
+            <e p="IAdminProjectFollower.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-ProjectStatus" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminProjectStatusService.cs" t="Include" />
+            <e p="IAdminProjectStatus.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-Role" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminProjectRoleService.cs" t="Include" />
+            <e p="IAdminProjectRole.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-Tag" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminTagService.cs" t="Include" />
+            <e p="ITagAdmin.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-Task" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminTaskService.cs" t="Include" />
+            <e p="IAdminTask.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-TaskFollower" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminTaskFollowersService.cs" t="Include" />
+            <e p="IAdminTaskFollowers.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ-TaskStatus" t="Include">
+          <e p="AdminTaskStatusService.cs" t="Include" />
+          <e p="IAdminTaskStatus.cs" t="Include" />
+        </e>
+        <e p="PRJ-TimeSheet" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminTimeSheetService.cs" t="Include" />
+            <e p="IAdminTimesheet.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ_ProjectHistory" t="Include">
+          <e p="Admin" t="Include">
+            <e p="IAdminProjectHistory.cs" t="Include" />
+            <e p="ProjectHistoryService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PRJ_TaskHistory" t="Include">
+          <e p="AdminTaskHistoryService.cs" t="Include" />
+          <e p="IAdminTaskHistory.cs" t="Include" />
+        </e>
+        <e p="Projects" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminProjectService.cs" t="Include" />
+            <e p="IAdminProjectService.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientProjectService.cs" t="Include" />
+            <e p="IClientProjectService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Request" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminReqestService.cs" t="Include" />
+            <e p="IAdminRequest.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientRequestService.cs" t="Include" />
+            <e p="IClientRequest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminServicesService.cs" t="Include" />
+            <e p="IAdminServicesService.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientServicesService.cs" t="Include" />
+            <e p="IClientServicesService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SubServices" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminSubServicesService.cs" t="Include" />
+            <e p="IAdminSubServicesService.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientSubServicesService.cs" t="Include" />
+            <e p="IClientSubServicesService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Theme" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminThemeExecution .cs" t="Include" />
+            <e p="IAdminThemeService.cs" t="Include" />
+          </e>
+          <e p="Client" t="Include">
+            <e p="ClientThemeExecution .cs" t="Include" />
+            <e p="IClientTheme.cs" t="Include" />
+          </e>
+        </e>
+        <e p="UploadFiles" t="Include">
+          <e p="IUploadFileService.cs" t="Include" />
+          <e p="UploadFileServices.cs" t="Include" />
+        </e>
+        <e p="Utility" t="Include">
+          <e p="EventArguments" t="Include">
+            <e p="NotificationArgument.cs" t="Include" />
+          </e>
+          <e p="ProjectManagement" t="Include">
+            <e p="ProjectLogArgument.cs" t="Include" />
+            <e p="ProjectPublisher.cs" t="Include" />
+            <e p="ProjectSubscriber.cs" t="Include" />
+          </e>
+          <e p="Publisher" t="Include">
+            <e p="NotificationPublisher.cs" t="Include" />
+          </e>
+          <e p="subscriber" t="Include">
+            <e p="NotificationSubscriber.cs" t="Include" />
+          </e>
+          <e p="TaskManagement" t="Include">
+            <e p="TaskLogArgument.cs" t="Include" />
+            <e p="TaskPublisher.cs" t="Include" />
+            <e p="TaskSubscriber.cs" t="Include" />
+          </e>
+        </e>
+        <e p="WorkPlan" t="Include">
+          <e p="Admin" t="Include">
+            <e p="AdminWorkPlanExecution.cs" t="Include" />
+            <e p="IAdminWorkPlanService.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="TestMiddleWareToWorkAsPolicy.cs" t="Include" />
+      <e p="ValueToAcceptUser.cs" t="Include" />
+      <e p="ValueToAcceptUserHandler.cs" t="Include" />
+      <e p="web.config" t="Include" />
+    </e>
+  </component>
+</project>
